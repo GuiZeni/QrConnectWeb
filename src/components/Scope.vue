@@ -42,7 +42,7 @@ import DownloadIcon from '../assets/Img/DownloadIcon.png';
 }
 
 .gradient-text {
-  font-size: 2.5rem;
+  font-size: 3.3rem;
   font-weight: 500;
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
@@ -51,7 +51,7 @@ import DownloadIcon from '../assets/Img/DownloadIcon.png';
 }
 
 .gradient-subtext {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: white;
 }
 

@@ -89,7 +89,6 @@ a:hover {
   height: 110px;
 }
 
-/* Responsividade */
 
 @media (max-width: 1440px) {
   .ImgTxt {
@@ -141,6 +140,7 @@ a:hover {
     height: 100px;
     top: -30%;
     left: 20%;
+    right: 20%;
   }
   .Logo {
     height: 60px;
@@ -153,22 +153,24 @@ a:hover {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 425px) {
   .ImgTxt {
     height: 90px;
-    top: -25%;
-    left: 18%;
+    top: -65%;
+    left: 40%;
   }
+
   .Logo {
-    height: 50px;
+    height: 40px;
+    left: 20%;
   }
   .nav-links {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    top: 120%;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%);
-    gap: 0.7rem;
+    gap: 0.5rem;
   }
   a {
     font-size: 13px;

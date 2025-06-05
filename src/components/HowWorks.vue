@@ -50,21 +50,25 @@
 }
 
 .app {
-  left: 10%;
-  top: 8%;
+  left: 6%;
   animation-delay: 0s;
+  top: 10%;
+
 }
 
 .app2 {
-  left: -5%;
-  top: 13%;
+  left: -10%;
+  top: 0%;
   animation-delay: 1.3s;
+  top: 10%;
+
 }
 
 .app3 {
-  left: 25%;
-  top: 13%;
+  left: 22%;
+  top: 0%;
   animation-delay: 2.6s;
+  top: 10%;
 }
 
 @keyframes floatUpDown {
@@ -78,28 +82,278 @@
 
 .text-content {
   text-align: start;
+  padding-top: 65px;
 }
 
 .title {
   color: aliceblue;
   font-family: 'Roboto', sans-serif;
-  padding-top: 90px;
-  padding-left: 875px;
-  font-size: 20px;
+  padding-top: 40px;
+  padding-left: 730px;
+  font-size: 25px;
+  text-align: center;
 }
 
 .pa {
-  padding-top: 75px;
-  padding-left: 840px;
+  padding-top: 7px;
+  padding-left: 750px;
 }
 
 .paragraph {
   color: aliceblue;
   font-size: 25px;
+  padding-top: 50px;
+  padding-right: 26px;
+  text-align: center;
   padding-bottom: 10px;
   font-family: 'Roboto', sans-serif;
 }
 
+@media screen and (max-width: 1440px) {
+  .box {
+    width: 90vw;
+    height: 90vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .app{
+    height: 550px;
+    left: 30%;
+
+
+
+  }
+
+   .app2{
+    height: 550px;
+    left: 15%;
+
+
+  }
+   .app3{
+    height: 550px;
+    left: 45%;
+
+
+  }
+
+
+
+  .text-content {
+    text-align: center;
+    padding: 0 20px;
+    padding-top: 400px;
+  }
+
+  .title {
+    padding: 20px 0 10px;
+    font-size: 24px;
+  }
+
+  .pa {
+    padding: 0;
+  }
+
+  .paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .box {
+    width: 90vw;
+    height: 90vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app{
+    height: 550px;
+    left: 2%;
+  }
+
+   .app2{
+    height: 550px;
+    left: 24%;
+
+  }
+   .app3{
+    height: 550px;
+    left: 46%;
+
+  }
+
+
+
+  .text-content {
+    text-align: center;
+    padding: 0 20px;
+    padding-top: 400px;
+  }
+
+  .title {
+    padding: 20px 0 10px;
+    font-size: 24px;
+  }
+
+  .pa {
+    padding: 0;
+  }
+
+  .paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 90vw;
+    height: 90vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app{
+    height: 550px;
+    left: -20%;
+  }
+
+   .app2{
+    height: 550px;
+    left: 12%;
+
+  }
+   .app3{
+    height: 550px;
+    left: 43%;
+
+  }
+
+
+
+  .text-content {
+    text-align: center;
+    padding: 0 20px;
+    padding-top: 400px;
+  }
+
+  .title {
+    padding: 20px 0 10px;
+    font-size: 24px;
+  }
+
+  .pa {
+    padding: 0;
+  }
+
+  .paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .box {
+    width: 90vw;
+    height: 90vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app{
+    height: 490px;
+    left: -12%;
+  }
+
+   .app2{
+    height: 0px;
+    left: 12%;
+
+  }
+   .app3{
+    height: 0px;
+    left: 43%;
+
+  }
+
+
+
+  .text-content {
+    text-align: center;
+    padding: 0 20px;
+    padding-top: 400px;
+  }
+
+  .title {
+    padding: 20px 0 10px;
+    font-size: 15px;
+  }
+
+  .pa {
+    padding: 1;
+  }
+
+  .paragraph {
+    padding-top: 15px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
+
+@media screen and (max-width: 1440px) and (max-height: 585px) {
+  .box {
+    width: 95vw;
+    height: 85vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app {
+    height: 900px;
+    left: 5%;
+  }
+
+  .app2 {
+    height: 450px;
+    left: 25%;
+  }
+
+  .app3 {
+    height: 450px;
+    left: 45%;
+  }
+
+  .text-content {
+    padding-top: 340px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 22px;
+    padding: 10px 0;
+  }
+
+  .pa {
+    padding: 0;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
 
 </style>

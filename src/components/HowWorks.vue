@@ -4,6 +4,7 @@
       <img src="../assets/Img/app.png" class="app" />
       <img src="../assets/Img/app.png" class="app2" />
       <img src="../assets/Img/app.png" class="app3" />
+
       <div class="text-content">
         <div class="title">
           <h1>Como funciona o App</h1>
@@ -353,6 +354,88 @@
   .paragraph {
     font-size: 16px;
     line-height: 1.5;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .container{
+    padding-top: 20px;
+  }
+  .box {
+    width: 95vw;
+    height: 70vh;
+    flex-direction: row;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .app,
+  .app2,
+  .app3 {
+    position: absolute;
+  }
+
+  .app {
+    height: 500px;
+    top: -4%;
+    left: -10%;
+  }
+
+  .app2 {
+    height: 500px;
+    top: -4%;
+    left: 70%;
+
+  }
+
+  .app3 {
+    display: none;
+  }
+
+  .text-content {
+    padding: 0 10px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+
+  .title {
+    padding-top: 10px;
+    font-size: 22px;
+    line-height: 1.4;
+  }
+
+  .pa {
+    padding-left: 0;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+
+  .button-position {
+    padding-top: 10px;
+  }
+
+  .download {
+    padding: 1rem 1.5rem;
+    flex-direction: row;
+    gap: 0.75rem;
+  }
+
+  .download-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .download-info h2 {
+    font-size: 18px;
+  }
+
+  .download-info p {
+    font-size: 14px;
   }
 }
 

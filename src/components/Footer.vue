@@ -138,4 +138,28 @@ padding-top: 30px;
     height: 40px;
   }
 }
+@media (max-width: 1366px) {
+  .box {
+    padding: 30px 10px;
+    max-width: 95%;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .paragraph {
+    font-size: 24px;
+  }
+  .button-position{
+    padding-bottom: 20px;
+}
+
+  .download {
+    margin-top: -50px;
+    padding: 1rem;
+    gap: 0.75rem;
+  }
+}
+
 </style>

@@ -104,7 +104,35 @@
   }
 }
 
+@media (max-width: 1336px) {
+  .box {
+    width: 100vh;  
+    height: 60vh;  
+    padding: 1.5rem 2rem;
+  }
 
+  .app {
+    height: 290px; 
+    padding-left: 0;
+    left: 500px;
+    top: 5px;
+  }
+
+  .title {
+    font-size: 18px; 
+  }
+
+  .paragraph {
+    font-size: 1.1rem;
+  }
+
+  .text-content {
+    text-align: start;
+    position: absolute;
+    top: -30%;
+    left: -50%;
+  }
+}
 
 
 </style>

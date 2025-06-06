@@ -107,4 +107,20 @@ import DownloadIcon from '../assets/Img/DownloadIcon.png';
     height: 40px;
   }
 }
+@media (max-width: 1366px) {
+  .overlay-content {
+    padding-top: 140px;
+    font-size: 1.0rem;
+  }
+
+  .download {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .download-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
 </style>
